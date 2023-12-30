@@ -216,7 +216,7 @@ iframe {
     margin: 50px;
 }
 
-@media only screen and (max-width: 675px) {
+@media only screen and (max-width: 480px) {
 
     .headerContent {
         background-color: rgb(102, 3, 102);

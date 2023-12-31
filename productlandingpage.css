@@ -37,6 +37,10 @@ li, a {
     list-style-type: none;
     text-decoration: none;
     color: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 a:hover {
@@ -45,6 +49,7 @@ a:hover {
 }
 nav ul {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     width: 600px;
 }
@@ -218,6 +223,10 @@ iframe {
 
 @media only screen and (max-width: 480px) {
 
+    body {
+    
+        width: 100%;
+    }
     .headerContent {
         background-color: rgb(102, 3, 102);
         color: #ffffff;
@@ -229,6 +238,13 @@ iframe {
         
         }
         
+        nav ul {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            width: 300px; 
+            font-size: 12px;
+        }
         
         body {
             font-size: 16px;
